@@ -1,7 +1,7 @@
 {
   "name": "parse-metric",
   "version": "0.2.0",
-  "description": "Translate human metric value strings into integers in JavaScript.",
+  "description": "Translates numbers with metric prefixes into plain JavaScript Numbers",
   "main": "lib/index.js",
   "scripts": {
     "test": "hydro"
