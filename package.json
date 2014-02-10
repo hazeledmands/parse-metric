@@ -1,0 +1,29 @@
+{
+  "name": "parse-metric",
+  "version": "0.0.0",
+  "description": "Translate human metric value strings into integers in JavaScript.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "hydro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demands/parse-metric"
+  },
+  "keywords": [
+    "metric",
+    "parse",
+    "bytes"
+  ],
+  "author": "Max Edmands",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demands/parse-metric/issues"
+  },
+  "homepage": "https://github.com/demands/parse-metric",
+  "devDependencies": {
+    "hydro": "~0.9.0",
+    "hydro-bdd": "~0.2.0",
+    "hydro-dot": "~1.0.5"
+  }
+}
