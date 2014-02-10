@@ -20,4 +20,8 @@ describe('meters', function() {
   it('km', function() {
     assert.equal(parse('12km'), 12000);
   });
+
+  it('decimal kilometers', function() {
+    assert.equal(parse('46.32 kilometers'), 46320);
+  });
 });
