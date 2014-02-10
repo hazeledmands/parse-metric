@@ -1,6 +1,6 @@
 {
   "name": "parse-metric",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Translate human metric value strings into integers in JavaScript.",
   "main": "lib/index.js",
   "scripts": {
