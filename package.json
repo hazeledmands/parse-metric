@@ -24,7 +24,7 @@
   "devDependencies": {
     "tape": "~2.10.2"
   },
-  "testling":
+  "testling": {
     "files": "test/*.js",
     "browsers": [
       "ie/6..latest",
