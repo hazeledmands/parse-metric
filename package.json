@@ -4,7 +4,7 @@
   "description": "Translates numbers with metric prefixes into plain JavaScript Numbers",
   "main": "lib/index.js",
   "scripts": {
-    "test": "hydro"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,6 @@
   },
   "homepage": "https://github.com/demands/parse-metric",
   "devDependencies": {
-    "hydro": "~0.9.0",
-    "hydro-bdd": "~0.2.0",
-    "hydro-dot": "~1.0.5"
+    "tape": "^2.10.2"
   }
 }

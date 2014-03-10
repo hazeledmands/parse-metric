@@ -1,27 +1,32 @@
-parse = require('../');
+var parse = require('../');
+var test = require('tape');
 
-describe('meters', function() {
-  it('cm', function() {
-    assert.equal(parse('2923cm'), 29.23);
-  });
+test('cm', function(t) {
+  t.plan(1);
+  t.equal(parse('2923cm'), 29.23);
+});
 
-  it('negative cm', function() {
-    assert.equal(parse('-19cm'), -0.19);
-  });
+test('negative cm', function(t) {
+  t.plan(1);
+  t.equal(parse('-19cm'), -0.19);
+});
 
-  it('m', function() {
-    assert.equal(parse('12543m'), 12543);
-  });
+test('m', function(t) {
+  t.plan(1);
+  t.equal(parse('12543m'), 12543);
+});
 
-  it('negative m', function() {
-    assert.equal(parse('-288m'), -288);
-  });
+test('negative m', function(t) {
+  t.plan(1);
+  t.equal(parse('-288m'), -288);
+});
 
-  it('km', function() {
-    assert.equal(parse('12km'), 12000);
-  });
+test('km', function(t) {
+  t.plan(1);
+  t.equal(parse('12km'), 12000);
+});
 
-  it('decimal kilometers', function() {
-    assert.equal(parse('46.32 kilometers'), 46320);
-  });
+test('decimal kilometers', function(t) {
+  t.plan(1);
+  t.equal(parse('46.32 kilometers'), 46320);
 });
