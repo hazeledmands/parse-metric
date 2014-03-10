@@ -10,8 +10,8 @@ Translates numbers with [CI prefixes](http://en.wikipedia.org/wiki/Metric_prefix
 ## Examples
 
 ```javascript
-var pm = require('parse-metric');
+var parseMetric = require('parse-metric');
 
-pm('200kB');   // => 200000
-pm('12.75cm'); // => 0.1275
+parseMetric('200kB');   // => 200000
+parseMetric('12.75cm'); // => 0.1275
 ```
