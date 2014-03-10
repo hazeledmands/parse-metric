@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/demands/parse-metric.png?branch=master)](https://travis-ci.org/demands/parse-metric)
 [![NPM version](https://badge.fury.io/js/parse-metric.png)](http://badge.fury.io/js/parse-metric)
+[![browser support](https://ci.testling.com/demands/parse-metric.png)
+](https://ci.testling.com/demands/parse-metric)
 
 Translates numbers with [CI prefixes](http://en.wikipedia.org/wiki/Metric_prefix) into plain JavaScript Numbers.
 
