@@ -2,7 +2,7 @@
   "name": "parse-metric",
   "version": "0.2.1",
   "description": "Translates numbers with metric prefixes into plain JavaScript Numbers",
-  "main": "lib/index.js",
+  "main": "parse-metric.js",
   "scripts": {
     "test": "tape test/*.js"
   },
